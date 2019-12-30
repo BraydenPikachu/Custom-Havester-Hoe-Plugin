@@ -1,0 +1,14 @@
+
+
+item:
+  #Plugin's name is HarvesterHoes, but honestly it's so easy to make it any item just added it as an option
+  material: 'DIAMOND_HOE'
+  name: '§c§lHarvester Hoe'
+  lore:
+    - '§ePuts sugancane directly into your inventory'
+    - '§eGets all the sugarcane from the block you hit to the highest'
+
+permission: 'harvesterhoe.use'
+
+
+

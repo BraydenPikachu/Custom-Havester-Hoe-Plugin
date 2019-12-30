@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Core
+comment0.text=\r\n\ Created\ by\ Bladian.\ Before\ using\ the\ code,\ kindly\ ask\ permission\ to\ him\ via\ the\ following\ methods.\r\n\ <p>\r\n\ Twitter\:\ BladianMC\r\n\ Discord\:\ Bladian\#6411\r\n\ <p>\r\n\ Thank\ you\ for\ reading\!\r\n
+comment1.params=
+comment1.target=Reference\ getReference()
+comment2.params=
+comment2.target=void\ onDisable()
+comment3.params=
+comment3.target=void\ onEnable()
+comment4.params=
+comment4.target=void\ saveBal()
+comment5.params=
+comment5.target=void\ loadBal()
+comment5.text=\r\n\ Load\ all\ balances\ from\ the\ config\ the\ the\ map\r\n
+numComments=6

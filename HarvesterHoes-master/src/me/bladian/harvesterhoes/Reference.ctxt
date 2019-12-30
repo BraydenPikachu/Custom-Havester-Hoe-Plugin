@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Reference
+comment0.text=\r\n\ Created\ by\ Bladian.\ Before\ using\ the\ code,\ kindly\ ask\ permission\ to\ him\ via\ the\ following\ methods.\r\n\ <p>\r\n\ Twitter\:\ BladianMC\r\n\ Discord\:\ Bladian\#6411\r\n\ <p>\r\n\ Thank\ you\ for\ reading\!\r\n
+comment1.params=
+comment1.target=org.bukkit.Material\ getMaterial()
+comment2.params=material
+comment2.target=void\ setMaterial(org.bukkit.Material)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=name
+comment4.target=void\ setName(java.lang.String)
+comment5.params=
+comment5.target=java.util.List\ getLore()
+comment6.params=lore
+comment6.target=void\ setLore(java.util.List)
+comment7.params=
+comment7.target=java.lang.String\ getPermission()
+comment8.params=permission
+comment8.target=void\ setPermission(java.lang.String)
+comment9.params=
+comment9.target=org.bukkit.inventory.ItemStack\ getItemStack()
+numComments=10

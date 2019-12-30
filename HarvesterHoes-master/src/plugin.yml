@@ -1,0 +1,7 @@
+main: me.bladian.harvesterhoes.Core
+name: HarvesterHoes
+version: 1.0
+
+commands:
+  harvesterhoe:
+

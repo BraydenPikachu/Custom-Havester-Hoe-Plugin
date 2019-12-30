@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Events
+comment0.text=\r\n\ Created\ by\ Bladian.\ Before\ using\ the\ code,\ kindly\ ask\ permission\ to\ him\ via\ the\ following\ methods.\r\n\ <p>\r\n\ Twitter\:\ BladianMC\r\n\ Discord\:\ Bladian\#6411\r\n\ <p>\r\n\ Thank\ you\ for\ reading\!\r\n
+comment1.params=core
+comment1.target=Events(Core)
+comment2.params=e
+comment2.target=void\ onInteract(org.bukkit.event.block.BlockBreakEvent)
+comment3.params=block
+comment3.target=java.util.List\ getBlocksOfSC(org.bukkit.block.Block)
+numComments=4

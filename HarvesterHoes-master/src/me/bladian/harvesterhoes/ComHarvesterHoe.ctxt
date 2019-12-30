@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=ComHarvesterHoe
+comment0.text=\r\n\ Created\ by\ Bladian.\ Before\ using\ the\ code,\ kindly\ ask\ permission\ to\ him\ via\ the\ following\ methods.\r\n\ <p>\r\n\ Twitter\:\ BladianMC\r\n\ Discord\:\ Bladian\#6411\r\n\ <p>\r\n\ Thank\ you\ for\ reading\!\r\n
+comment1.params=core
+comment1.target=ComHarvesterHoe(Core)
+comment2.params=commandSender\ command\ s\ strings
+comment2.target=boolean\ onCommand(org.bukkit.command.CommandSender,\ org.bukkit.command.Command,\ java.lang.String,\ java.lang.String[])
+comment3.params=commandSender\ command\ s\ strings
+comment3.target=boolean\ onUpgrade(org.bukkit.command.CommandSender,\ org.bukkit.command.Command,\ java.lang.String,\ java.lang.String[])
+numComments=4
