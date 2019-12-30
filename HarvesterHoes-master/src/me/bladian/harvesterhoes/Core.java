@@ -17,6 +17,17 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandSender;
+import org.bukkit.enchantments.Enchantment;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.Inventory;
+import org.bukkit.inventory.InventoryHolder;
+import org.bukkit.inventory.ItemFlag;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
+import org.bukkit.plugin.java.JavaPlugin;
 /**
  * Created by Bladian. Before using the code, kindly ask permission to him via the following methods.
  * <p>
@@ -63,7 +74,17 @@ public class Core extends JavaPlugin
         getServer().getPluginManager().registerEvents(new Events(this), this);
     }
     
-    
+     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
+        if (command.getName().equalsIgnoreCase("upgrade") && sender instanceof Player) {
+            Inventory gui = Bukkit.createInventory((InventoryHolder)null, 27, this.colorize("Upgrade"));
+            this.addItems(gui);
+
+            for(int i = 0; i < 27; ++i) {
+                if (gui.getItem(i) == null) {
+                    gui.setItem(i, this.getBlankItem());
+                }
+            }
+
     
     public void saveBal() {
         File file = new File("data.yml");
