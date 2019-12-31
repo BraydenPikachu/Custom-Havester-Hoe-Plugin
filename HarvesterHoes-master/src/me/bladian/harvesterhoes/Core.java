@@ -76,16 +76,29 @@ public class Core extends JavaPlugin
     
      public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (command.getName().equalsIgnoreCase("upgrade") && sender instanceof Player) {
-            Inventory gui = Bukkit.createInventory((InventoryHolder)null, 27, this.colorize("Upgrade"));
-            this.addItems(gui);
+            Inventory gui = Bukkit.createInventory((InventoryHolder)null, 27);
+            this.addEnchants(gui);
 
             for(int i = 0; i < 27; ++i) {
                 if (gui.getItem(i) == null) {
                     gui.setItem(i, this.getBlankItem());
                 }
             }
-
-    
+           
+        } 
+         return true;
+    }
+     public void addEnchants(Inventory gui) {
+        
+        }
+    private ItemStack getBlankItem() {
+        ItemStack item = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short)3);
+        item.addUnsafeEnchantment(Enchantment.DURABILITY, 1);
+        ItemMeta itemMeta = item.getItemMeta();
+        itemMeta.addItemFlags(new ItemFlag[]{ItemFlag.HIDE_ENCHANTS});
+        item.setItemMeta(itemMeta);
+        return item;
+    }
     public void saveBal() {
         File file = new File("data.yml");
         YamlConfiguration bal = YamlConfiguration.loadConfiguration(file);
